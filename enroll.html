@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Enroll in Screenwriting Ireland – a practical, focused course by filmmaker Stephen Gaffney.">
   <title>Enroll – Screenwriting Ireland</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #000;
-      color: #fff;
+      font-family: 'Inter', sans-serif;
+      background-color: #f4f4f4;
+      color: #222;
     }
     nav {
-      background-color: #111;
+      background-color: #fff;
       padding: 1rem;
       text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     }
     nav a {
-      color: #e50914;
+      color: #333;
       margin: 0 1rem;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 600;
     }
     header {
       text-align: center;
-      padding: 3rem 2rem;
-      background-color: #111;
+      padding: 4rem 2rem;
+      background-color: #fafafa;
+      border-bottom: 1px solid #ddd;
     }
     h1 {
-      color: #e50914;
+      color: #cc2b2b;
       font-size: 2.5rem;
+      margin-bottom: 1rem;
     }
     .section {
       padding: 2rem;
@@ -38,34 +42,39 @@
       margin: auto;
     }
     .price-box {
-      border: 1px solid #444;
+      border: 1px solid #ccc;
       padding: 1.5rem;
       margin: 2rem 0;
-      background-color: #111;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.03);
     }
     .price {
-      font-size: 2rem;
-      color: #e50914;
+      font-size: 1.75rem;
+      color: #cc2b2b;
+      font-weight: 700;
     }
     .cta-button {
       display: inline-block;
-      background-color: #e50914;
+      background-color: #cc2b2b;
       color: #fff;
-      padding: 1rem 2rem;
+      padding: 0.8rem 1.5rem;
       text-decoration: none;
-      font-weight: bold;
-      border-radius: 4px;
+      font-weight: 600;
+      border-radius: 6px;
       margin-top: 1rem;
+      transition: background 0.3s;
+    }
+    .cta-button:hover {
+      background-color: #a62222;
     }
     footer {
       text-align: center;
       padding: 2rem;
       font-size: 0.9rem;
-      color: #aaa;
-      border-top: 1px solid #333;
-    }
-    footer a {
-      color: #e50914;
+      color: #555;
+      background-color: #f0f0f0;
+      border-top: 1px solid #ddd;
     }
   </style>
 </head>
@@ -82,7 +91,7 @@
   </header>
 
   <section class="section">
-    <p>This course is for screenwriters who want to write with intent, purpose, and clarity — and get their work made. Six focused PDF modules, and a live Zoom session to wrap it up.</p>
+    <p>This course is for screenwriters who want to write with intent, purpose, and clarity — and get their work made. Six focused PDF modules, and a live Zoom session at the end.</p>
 
     <div class="price-box">
       <p><strong>Standard Access</strong></p>
@@ -107,7 +116,8 @@
 
   <footer>
     <p>&copy; 2025 Stephen Gaffney. All rights reserved.</p>
-    <p>Contact: <a href="mailto:stephen@deepwebfilms.info">stephen@deepwebfilms.info</a></p>
+    <a href="mailto:stephen@deepwebfilms.info" class="cta-button">Contact Now</a>
   </footer>
 </body>
 </html>
+
