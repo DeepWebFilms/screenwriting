@@ -37,6 +37,7 @@
     h2 {
       margin-top: 2rem;
       color: #222;
+      text-align: center;
     }
     p, li {
       max-width: 800px;
@@ -52,22 +53,6 @@
       border-radius: 8px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.03);
     }
-    .cta-button {
-      display: block;
-      text-align: center;
-      margin: 3rem auto;
-      background-color: #cc2b2b;
-      color: #fff;
-      padding: 1rem 2rem;
-      text-decoration: none;
-      font-weight: 600;
-      width: fit-content;
-      border-radius: 6px;
-      transition: background 0.3s;
-    }
-    .cta-button:hover {
-      background-color: #a62222;
-    }
     footer {
       text-align: center;
       padding: 2rem;
@@ -76,7 +61,19 @@
       background-color: #f0f0f0;
       border-top: 1px solid #ddd;
     }
+    footer a {
+      color: #cc2b2b;
+    }
   </style>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-D2M6WY9L42"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-D2M6WY9L42');
+  </script>
 </head>
 <body>
   <nav>
@@ -127,5 +124,6 @@
   </footer>
 </body>
 </html>
+
 
 
