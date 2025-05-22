@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="A practical course in screenwriting for film and TV, covering structure, character, dialogue, and rewriting – built from real production experience in Ireland.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Screenwriting Ireland | Online Screenwriting Course for Film & TV</title>
+  <meta name="description" content="Enroll in the Screenwriting Ireland course and start writing scripts that get made.">
+  <title>Enroll – Screenwriting Ireland</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -26,7 +26,7 @@
       font-weight: 600;
     }
     header {
-      padding: 4rem 2rem;
+      padding: 4rem 2rem 2rem;
       text-align: center;
       background-color: #fafafa;
       border-bottom: 1px solid #ddd;
@@ -36,34 +36,38 @@
       margin-bottom: 1rem;
       color: #cc2b2b;
     }
-    h2 {
-      color: #222;
-      text-align: center;
-    }
-    p, ul {
-      max-width: 700px;
-      margin: 1rem auto;
-      line-height: 1.6;
-    }
-    .cta-button {
-      display: inline-block;
-      background-color: #cc2b2b;
-      color: #fff;
-      padding: 0.75rem 1.5rem;
-      text-decoration: none;
-      margin-top: 2rem;
-      font-weight: bold;
-      border-radius: 6px;
-      transition: background 0.3s;
-    }
-    .cta-button:hover {
-      background-color: #a62222;
-    }
     .section {
       padding: 3rem 2rem;
-      border-top: 1px solid #ddd;
+      max-width: 800px;
+      margin: 0 auto;
       background-color: #fff;
-      margin-bottom: 1rem;
+      border-bottom: 1px solid #ddd;
+    }
+    h2 {
+      color: #cc2b2b;
+      text-align: center;
+    }
+    ul {
+      line-height: 1.6;
+    }
+    form {
+      margin-top: 2rem;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #cc2b2b;
+      color: #fff;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 6px;
     }
     footer {
       text-align: center;
@@ -77,13 +81,6 @@
       color: #cc2b2b;
     }
   </style>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-D2M6WY9L42"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-D2M6WY9L42');
-  </script>
 </head>
 <body>
   <nav>
@@ -94,42 +91,40 @@
   </nav>
 
   <header>
-    <h1>Screenwriting Ireland</h1>
-    <h2><strong>A practical course in screenwriting for film and TV</strong></h2>
-    <a href="course.html" class="cta-button">View Full Course Breakdown</a>
+    <h1>Enroll Now</h1>
   </header>
 
-  <section class="section" id="course">
-    <h2>What You Will Learn</h2>
-    <p>A practical, straightforward course that focuses on writing scripts that can actually be made. Built from real experience in the Irish and international film industries.</p>
+  <section class="section">
+    <h2>Pricing</h2>
     <ul>
-      <li>How to write with production in mind</li>
-      <li>Building grounded, believable characters</li>
-      <li>Understanding story structure without relying on formulas</li>
-      <li>Writing in all genres</li>
-      <li>How to approach rewriting</li>
-      <li>Live Zoom Q&A after completing the course</li>
+      <li><strong>Full Course Access:</strong> €195 (one-time payment)</li>
+      
+      <li><strong>Mentorship:</strong> Email support and feedback from instructor throughout the course</li>
+      
+      <li><strong>Payment Plans:</strong> Available on request – contact us</li>
+      <li><strong>Certificate:</strong> Issued upon course completion</li>
     </ul>
   </section>
 
   <section class="section">
-    <h2>About the Instructor</h2>
-    <p>Stephen Gaffney is an Irish filmmaker with credits including <em>Red Room</em>, <em>Class A</em>, <em>The Kinahan Cartel</em>, and Netflix’s <em>McGregor Forever</em>. His approach to screenwriting is grounded in real-world application, with a focus on clarity, realism, and emotional impact.</p>
-  </section>
-
-  <section class="section">
-    <h2>Course Format</h2>
-    <p>The course includes 6 written modules in PDF format. At the end, you'll have access to a live Zoom session where you can ask questions and get feedback.</p>
+    <h2>What You Will Learn</h2>
+    <ul>
+      <li>Write screenplays with structure and purpose</li>
+      <li>Develop compelling characters and strong concepts</li>
+      <li>Master rewriting and polishing techniques</li>
+      <li>Understand production-focused storytelling</li>
+      <li>Finish with a script you’re proud of — and a Zoom Q&A</li>
+    </ul>
   </section>
 
   <section class="section">
     <h2>Send a Message</h2>
     <form action="https://formsubmit.co/stephen@deepwebfilms.info" method="POST">
       <input type="hidden" name="_captcha" value="false">
-      <p><input type="text" name="name" placeholder="Your Name" required style="width: 100%; padding: 0.75rem; margin: 0.5rem 0;"></p>
-      <p><input type="email" name="email" placeholder="Your Email" required style="width: 100%; padding: 0.75rem; margin: 0.5rem 0;"></p>
-      <p><textarea name="message" placeholder="Your Message" required style="width: 100%; padding: 0.75rem; margin: 0.5rem 0;"></textarea></p>
-      <button type="submit" class="cta-button">Send Message</button>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
     </form>
   </section>
 
